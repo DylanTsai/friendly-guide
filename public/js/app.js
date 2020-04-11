@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "c6b1974f50e9ac27465a";
+/******/ 	var hotCurrentHash = "87f6e4f54bf88116eacd";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -59480,7 +59480,7 @@ var App = /*#__PURE__*/function (_React$Component) {
       var segment = route ? route.name.split(".")[0] : undefined;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"]("section", {
         className: classNames.container
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"](react_helmet__WEBPACK_IMPORTED_MODULE_7__["Helmet"], _config__WEBPACK_IMPORTED_MODULE_12__["config"].app.head), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"](_Header__WEBPACK_IMPORTED_MODULE_20__["Header"], null), segment && this.components[segment] ? react__WEBPACK_IMPORTED_MODULE_6__["createElement"](this.components[segment]) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"]("div", null, notFound));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"]("h3", null, "hi"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"](react_helmet__WEBPACK_IMPORTED_MODULE_7__["Helmet"], _config__WEBPACK_IMPORTED_MODULE_12__["config"].app.head), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"](_Header__WEBPACK_IMPORTED_MODULE_20__["Header"], null), segment && this.components[segment] ? react__WEBPACK_IMPORTED_MODULE_6__["createElement"](this.components[segment]) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_6__["createElement"]("div", null, notFound));
     }
   }]);
 
@@ -61178,7 +61178,7 @@ if (true) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1586601527699
+      // 1586601901600
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
