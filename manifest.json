@@ -1,0 +1,6 @@
+{
+  "app.css": "/public/css/app.css",
+  "app.js": "/public/js/app.js",
+  "app.css.map": "/public/css/app.css.map",
+  "app.js.map": "/public/js/app.js.map"
+}
